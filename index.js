@@ -95,9 +95,16 @@ app.post('/api/notes', (request, response) => {
 
 app.use(unknownEndpoint);
 
+<<<<<<< HEAD
 
 
 const PORT = process.env.PORT || 3001
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
 })
+=======
+const PORT = process.env.PORT || 3001;
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});
+>>>>>>> 5b4e2242602da9760fb30a3a07e3c4db07551fc8
