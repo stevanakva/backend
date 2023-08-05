@@ -8,3 +8,13 @@ content-type: application/json
     "content": "Ensure that everything still works",
     "important": true
 }
+
+###
+PUT http://localhost:3001/api/notes/64caade93d32dd04e1ed0dd2
+Content-Type: application/json
+
+{
+    "content": "JavaScript is strange",
+    "important": false
+
+}
